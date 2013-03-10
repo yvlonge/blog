@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Hello World ╣зр╩нд
+title: Hello World
 ---
 
-My first post.
+My first post. 
 
 **RStrudio** for the first time.
 
