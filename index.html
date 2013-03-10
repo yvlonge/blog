@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Yvlonge's Blog
+title: yvlonge's blog
 ---
 
 
@@ -13,7 +13,7 @@ title: Yvlonge's Blog
   {% endif %}
   <li class="listing-item">
     <a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>    
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}" text-align=right>{{ post.date | date:"%Y-%m-%d" }}</time>    
   </li>
 {% endfor %}
 </ul>
